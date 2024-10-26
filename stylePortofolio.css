@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    font-family: 'Quicksand' , sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color:#fff;
+}
+
+body{
+    color: #fff;
+    background-color: rgba(0,212,255,1);
+    background-image:radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(20,98,168,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.glass-container{
+    display: block;
+
+    max-width: 80vw;
+    margin-top: 10vh;
+    margin-bottom: 30px;
+    background: rgba(0,0,0,0.57);
+    padding: 50px;
+    border-radius: 25px;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.5);
+    backdrop-filter: blur(11.6px);
+}
+
+.logo{
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 570;
+    margin-top: -10px;
+}
+
+.image-wrapper{
+    flex: 0.7;
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 4vh;
+}
+.image-wrapper img{
+    max-width: 100%;
+    height: auto;
+}
+
+ul.nav-links{
+    margin: 0;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    float: right;
+    display: flex;
+    list-style: none;
+}
+li.nav-link{
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 19px;
+    font-weight: 300;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.secondContent{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.secondContent h2{
+    font-size: 35px;
+}
+.secondContent p{
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 8px;
+}
+
+.introduction{
+    margin-top: 12vh;
+    flex : 1;
+    padding: 20px;
+
+}
+
+.introduction h2{
+    font-size: 35px;
+}
+.introduction p{
+    font-size: 16px;
+    line-height: 22px;
+}
+
+button{
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    font-size: 17px;
+    color: #fff;
+    background-color: transparent;
+    border: 0.5px solid #fc7;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+button:hover{
+    border-color: hsl(244, 66%, 60%);
+    background-color: rgb(10, 164, 195);
+}
+
+a:hover{
+    color:rgb(10, 164, 195);
+}
+
+.attrebute{
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    font-size: 12px;
+}
+
+.AboutMe{
+    margin-top: 30px; /* Add some space above the section */
+    padding: 10px; /* Add padding to the section */
+    background: rgba(0, 0, 0, 0.10); /* Match the background with your glass effect */
+    border-radius: 15px; /* Add rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Add some shadow for depth */
+}
+
+.education{
+    margin-top: 30px; /* Add some space above the section */
+    padding: 10px; /* Add padding to the section */
+    background: rgba(0, 0, 0, 0.10); /* Match the background with your glass effect */
+    border-radius: 15px; /* Add rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Add some shadow for depth */
+}
+.education p{
+    font-weight: 500;
+}
+.experience-certifications {
+    margin-top: 30px; /* Add some space above the section */
+    padding: 10px; /* Add padding to the section */
+    background: rgba(0, 0, 0, 0.10); /* Match the background with your glass effect */
+    border-radius: 15px; /* Add rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Add some shadow for depth */
+}
+
+.personal-projects{
+    margin-top: 30px; /* Add some space above the section */
+    padding: 10px; /* Add padding to the section */
+    background: rgba(0, 0, 0, 0.10); /* Match the background with your glass effect */
+    border-radius: 15px; /* Add rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Add some shadow for depth */
+}
+
+.secondContent ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+.secondContent li {
+    background: rgba(10, 164, 195, 0.1); /* Light background color for each item */
+    border-radius: 10px; /* Rounded corners for list items */
+    margin: 10px 0; /* Space between list items */
+    padding: 10px; /* Padding inside each list item */
+    font-size: 16px; /* Adjust font size */
+    transition: background 0.3s ease; /* Transition for hover effect */
+}
+
+.secondContent li:hover {
+    background: rgba(10, 164, 195, 0.3); /* Darken background on hover */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+
+@media screen and (max-width: 1075px){
+    .content{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 720px){
+    .logo{
+        font-size: 30px;
+    }
+    ul.nav-link{       
+        text-align: center;
+    }
+    li.nav-link{
+        font-size: 16px;
+    }
+    
+    .introduction h2{
+        font-size: 30px;
+    }
+    .introduction p{
+        font-size: 15px;
+    }
+    button{
+        font-size: 13px;
+    }
+    .image-wrapper img{
+        max-width: 450px;
+    }
+}
