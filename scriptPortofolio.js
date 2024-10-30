@@ -13,7 +13,7 @@
 
 document.getElementById("downloadCV").addEventListener("click",function(){
     const link = document.createElement("a");
-    link.href = "AvramAlinResumeGit.pdf";
+    link.href = "./AvramAlinResumeGit.pdf";
     link.download = "AvramAlinResume.pdf";
 
     document.body.appendChild(link);
