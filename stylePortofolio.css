@@ -92,7 +92,7 @@ li.nav-link{
 }
 
 .introduction{
-    margin-top: 12vh;
+    margin-top: 4vh;
     flex : 1;
     padding: 20px;
 
@@ -134,57 +134,104 @@ a:hover{
     font-size: 12px;
 }
 
-.AboutMe{
-    margin-top: 30px; /* Add some space above the section */
-    padding: 10px; /* Add padding to the section */
-    background: rgba(0, 0, 0, 0.10); /* Match the background with your glass effect */
-    border-radius: 15px; /* Add rounded corners */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Add some shadow for depth */
+.AboutMe {
+    margin-top: 30px; 
+    padding: 10px; 
+    background: rgba(0, 0, 0, 0.10); 
+    border-radius: 15px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); 
 }
 
-.education{
-    margin-top: 30px; /* Add some space above the section */
-    padding: 10px; /* Add padding to the section */
-    background: rgba(0, 0, 0, 0.10); /* Match the background with your glass effect */
-    border-radius: 15px; /* Add rounded corners */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Add some shadow for depth */
+.education {
+    margin-top: 30px; 
+    padding: 10px; 
+    background: rgba(0, 0, 0, 0.10); 
+    border-radius: 15px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); 
 }
-.education p{
+
+.education p {
     font-weight: 500;
 }
+
 .experience-certifications {
-    margin-top: 30px; /* Add some space above the section */
-    padding: 10px; /* Add padding to the section */
-    background: rgba(0, 0, 0, 0.10); /* Match the background with your glass effect */
-    border-radius: 15px; /* Add rounded corners */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Add some shadow for depth */
+    margin-top: 30px; 
+    padding: 10px; 
+    background: rgba(0, 0, 0, 0.10); 
+    border-radius: 15px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); 
 }
 
-.personal-projects{
-    margin-top: 30px; /* Add some space above the section */
-    padding: 10px; /* Add padding to the section */
-    background: rgba(0, 0, 0, 0.10); /* Match the background with your glass effect */
-    border-radius: 15px; /* Add rounded corners */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Add some shadow for depth */
+.personal-projects {
+    margin-top: 30px; 
+    padding: 10px; 
+    background: rgba(0, 0, 0, 0.10); 
+    border-radius: 15px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); 
 }
 
 .secondContent ul {
-    list-style-type: none; /* Remove default bullet points */
-    padding: 0; /* Remove default padding */
+    list-style-type: none; 
+    padding: 0; 
 }
 
 .secondContent li {
-    background: rgba(10, 164, 195, 0.1); /* Light background color for each item */
-    border-radius: 10px; /* Rounded corners for list items */
-    margin: 10px 0; /* Space between list items */
-    padding: 10px; /* Padding inside each list item */
-    font-size: 16px; /* Adjust font size */
-    transition: background 0.3s ease; /* Transition for hover effect */
+    background: rgba(10, 164, 195, 0.1); 
+    border-radius: 10px; 
+    margin: 10px 0; 
+    padding: 10px; 
+    font-size: 16px; 
+    transition: background 0.3s ease; 
 }
 
 .secondContent li:hover {
-    background: rgba(10, 164, 195, 0.3); /* Darken background on hover */
-    transform: translateY(-2px); /* Slight lift effect on hover */
+    background: rgba(10, 164, 195, 0.3); 
+    transform: translateY(-2px); 
+}
+
+.social-icons {
+    margin: 10px 0; 
+    display: flex; 
+    justify-content: center; 
+}
+
+.social-icons a {
+    background: rgba(255, 255, 255, 0.1); 
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+    border-radius: 50%; 
+    display: inline-flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 5px; 
+    width: 50px; 
+    height: 50px; 
+    transition: background 0.3s ease, transform 0.3s ease; 
+}
+
+.social-icons a:hover {
+    background: rgba(10, 164, 195, 0.3); 
+    transform: scale(1.1); 
+}
+
+.social-icons i {
+    color: #fff; 
+    font-size: 20px; 
+}
+
+.hobbies{
+    margin-top: 30px; 
+    padding: 10px; 
+    background: rgba(0, 0, 0, 0.10); 
+    border-radius: 15px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); 
+}
+
+.skills{
+    margin-top: 30px; 
+    padding: 10px; 
+    background: rgba(0, 0, 0, 0.10); 
+    border-radius: 15px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); 
 }
 
 
@@ -198,11 +245,13 @@ a:hover{
     .logo{
         font-size: 30px;
     }
+    
     ul.nav-link{       
         text-align: center;
     }
     li.nav-link{
-        font-size: 16px;
+        font-size: 13px;
+        text-align: center;
     }
     
     .introduction h2{
@@ -216,5 +265,43 @@ a:hover{
     }
     .image-wrapper img{
         max-width: 450px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .logo {
+        font-size: 24px;
+    }
+    ul.nav-link {
+        padding: 0;
+    }
+    li.nav-link {
+        font-size: 8px;
+    }
+    .introduction h2 {
+        font-size: 24px;
+    }
+    .introduction p {
+        font-size: 14px;
+    }
+    button {
+        font-size: 12px;
+        padding: 8px;
+    }
+    .image-wrapper img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .logo {
+        font-size: 20px;
+    }
+    .introduction h2 {
+        font-size: 20px;
+    }
+    .introduction p, button {
+        font-size: 12px;
     }
 }

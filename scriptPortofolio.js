@@ -14,7 +14,7 @@
 document.getElementById("downloadCV").addEventListener("click",function(){
     const link = document.createElement("a");
     link.href = "./AvramAlinResumeGit.pdf";
-    link.download = "AvramAlinResume.pdf";
+    link.download = "AvramAlinResumeDownload.pdf";
 
     document.body.appendChild(link);
 
