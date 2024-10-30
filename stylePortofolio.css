@@ -260,6 +260,12 @@ a:hover{
     .introduction p{
         font-size: 15px;
     }
+    .secondContent h2{
+        font-size: 30px;
+    }
+    .secondContent p{
+        font-size: 15px;
+    }
     button{
         font-size: 13px;
     }
@@ -284,6 +290,12 @@ a:hover{
     .introduction p {
         font-size: 14px;
     }
+    .secondContent h2 {
+        font-size: 24px;
+    }
+    .secondContent p {
+        font-size: 14px;
+    }
     button {
         font-size: 12px;
         padding: 8px;
@@ -302,6 +314,12 @@ a:hover{
         font-size: 20px;
     }
     .introduction p, button {
+        font-size: 12px;
+    }
+    .secondContent h2 {
+        font-size: 20px;
+    }
+    .secondContent p, button {
         font-size: 12px;
     }
 }
