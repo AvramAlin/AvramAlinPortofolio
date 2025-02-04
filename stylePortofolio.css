@@ -377,3 +377,15 @@ a:hover {
 .secondContent li:hover {
   background: rgba(10, 164, 195, 0.2);
 }
+
+/* Chrome-specific fixes */
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .project-gallery {
+    transform: translateZ(0);
+  }
+
+  .image-container {
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+  }
+}
