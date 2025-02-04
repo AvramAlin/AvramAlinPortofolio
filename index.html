@@ -1,132 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    <link rel="stylesheet" href="stylePortofolio.css">
-    <link rel="icon" type="image/png" href="icon.png" >
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="stylePortofolio.css" />
+    <link rel="icon" type="image/png" href="icon.png" />
     <title>AvramPortofolio</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div class="glass-container">
-            <nav class="navbar">
-                <div class="logo">
-                    <a href="#"> Avram Alin Ioan <br>Portofolio </a>
-                </div>
-                <ul class="nav-links">
-                    <li class="nav-link" id="aboutmeNav"> <a>About</a></li>
-                    <li class="nav-link" id="educationNav"> <a>Education</a></li>
-                    <li class="nav-link" id="experienceNav"> <a>Experience</a></li>
-                    <li class="nav-link" id="projectsNav"> <a>Projects</a></li>
-                    <li class="nav-link" id="skillsNav"> <a>Skills</a></li>
-                    <li class="nav-link" id="hobbiesNav"> <a>Hobbies</a></li>
-                </ul>
-            </nav>
-           
-            <div class="content">
-                <div class="introduction">
-                    <div class="social-icons">
-                        <a href="https://github.com/AvramAlin" class="icon"><i class="fa-brands fa-github"></i></a>
-                        <a href="https://www.linkedin.com/in/alin-ioan-avram-35817b296/" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
-                        <a href="https://www.youtube.com/@thenewblackjack1697" class="icon"><i class="fa-brands fa-youtube"></i></a>
-                    </div>
-                    <h2>Hello There! <br> It's Avram Alin-Ioan and this is what i love to do!</h2>
-                    <p>Welcome to my portfolio! 
-                        <br>Here, you’ll find a showcase of my programming projects, experience, and education. This site not only highlights my technical skills but also reflects who I am as an individual: passionate about learning, growth, and innovation. 
-                        <br>I created this space to organize my work in a way that’s accessible and inviting for everyone to explore.
-                    </p>
-                    <button type="button" id="downloadCV">Download CV</button>
-                </div>
-                <div class="image-wrapper">
-                    <img src="catImgForPortofolio.png" alt="No data">
-                </div>
-            </div>
-            <div class="secondContent">
-                <div class="AboutMe" id="aboutMe">
-                    <h2>About me</h2>
-                    <p>My name is Avram Alin Ioan, I was born on 21st October 2003, and I live in Bucharest, Sector 4. I am a third-year student at the Faculty of Cybernetics, Statistics, and Economic Informatics, specializing in Economic Informatics, and I am intensely passionate about programming and IT. Every day, I strive to learn new things and enrich my knowledge regarding the technologies I have already worked with.
-                        <br>
-                        <br>I am a sociable and friendly individual who looks forward to working in a dynamic team environment. I am eager to learn from those with a stronger understanding of programming and continuously improve my skills. I value collaboration and am excited about the opportunity to grow and develop in a supportive and innovative setting.
-                        <br>
-                        <br>I am currently seeking an internship or part-time position as a
-                        Software Developer. I am eager to apply my skills and knowledge in a
-                        professional setting and contribute to the success of a dynamic
-                        team.
-                    </p>
-                </div>
-                <div class="education" id="education">
-                    <h2>Education</h2>
-                   <p> <a href="https://www.ase.ro">Bucharest University of Economic-Studies</a><br>
-                    <a href="https:/csie.ase.ro">Faculty of Cybernetics, Statistics,
-                    and Economic Informatics </a> <br>
-                    Specialization: Economic
-                    Informatics <br>
-                    Class of 2022-2025  </p>
-                </div>
+      <div class="glass-container">
+        <nav class="navbar">
+          <div class="logo">
+            <a href="#"> Avram Alin Ioan <br />Portofolio </a>
+          </div>
+          <ul class="nav-links">
+            <li class="nav-link" id="aboutmeNav"><a>About</a></li>
+            <li class="nav-link" id="educationNav"><a>Education</a></li>
+            <li class="nav-link" id="experienceNav"><a>Experience</a></li>
+            <li class="nav-link" id="projectsNav"><a>Projects</a></li>
+            <li class="nav-link" id="skillsNav"><a>Skills</a></li>
+            <li class="nav-link" id="hobbiesNav"><a>Hobbies</a></li>
+          </ul>
+        </nav>
 
-                <div class="experience-certifications" id="experienceCert">
-                    <h2>Experience and Certifications</h2>
-                    <ul>
-                        <li>Erasmus+ project "INFOROBOTICS" held in Spain, Granada. I
-                            delved into MicroPython technology by developing a remote-
-                            controlled car from scratch as part of a team. I was responsible
-                            for the software part.</li>
-                        <li>Oracle Course “Database Design and Programming with SQL”</li>
-                        <li>Oracle Course “Database Programming with PL/SQL”</li>
-                        <li>Cambridge CAE(“Advanced Certificate in English”) obtained with
-                            the highest score.</li>
-                            <li>Tools: VSCode, Eclipse, Visual Studio, SQL Developer,
-                                PyCharm,IntelliJ,GIT</li>
-                    </ul>
-                </div>
-                <div class="personal-projects" id="personalProjects">
-                    <h2>Personal Projects</h2>
-                    <ul>
-                        <li>Managing restaurant orders based on ingredient stocks"
-                            - I used
-                            object-oriented programming in C++. This project includes a
-                            console interface that manages customer orders.</li>
-                        <li>
-                            Interactive menu in bash using the features of UNIX systems"
-                            based on CSV files, different guitar models from 80s artists are
-                            displayed in the terminal.
-                        </li>
-                        <li>
-                            "Managing the database of a music store.
-                        - I used SQL and
-                        PL/SQL to manage information and tables related to employees,
-                        departments, suppliers, orders, and products.
-                        </li>
-                        <li>An application for a video rental store.
-                            "
-                            - I used Visual Studio
-                            Windows Forms in C# and created multiple scenes where the
-                            client could view the rental list, the available tapes, and even
-                            complete a rental form for a specified period.</li>
-                    </ul>
-                </div>
-                <div class="skills" id="skillsId">
-                    <h2>Skills</h2>
-                    <ul>
-                        <li>Programming languages and technologies: Javascript, NodeJS, React, React Native, Java, C#, C, C++, SQL, PL/SQL, Python, HTML, CSS</li>
-                        <li>Software: VSCode, Android Studio, Visual Studio, Eclipse/IntelliJ, SQL Developer, PyCharm, Visual Paradigm </li>
-                        <li>Soft Skills: Teamwork, Communication, Problem-solving</li>
-                    </ul>
-                </div>
-                <div class="hobbies" id="hobbiesId">
-                    <h2>Hobbies</h2>
-                    <ul>
-                        <li>Vocalist and guitarist in the Blues/Pop Rock band "The NewBlackjack"</li>
-                        <li> collect vinyl records and CDs.</li>
-                        <li>Passionate about sports and fitness.</li>
-                    </ul>
-                </div>
+        <div class="content">
+          <div class="introduction">
+            <div class="social-icons">
+              <a href="https://github.com/AvramAlin" class="icon"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/alin-ioan-avram-35817b296/"
+                class="icon"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+              <a
+                href="https://www.youtube.com/@thenewblackjack1697"
+                class="icon"
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
             </div>
-            
+            <h2>
+              Hello There! <br />
+              It's Avram Alin-Ioan and this is what i love to do!
+            </h2>
+            <p>
+              Welcome to my portfolio! <br />Here, you’ll find a showcase of my
+              programming projects, experience, and education. This site not
+              only highlights my technical skills but also reflects who I am as
+              an individual: passionate about learning, growth, and innovation.
+              <br />I created this space to organize my work in a way that’s
+              accessible and inviting for everyone to explore.
+            </p>
+            <button type="button" id="downloadCV">Download CV</button>
+          </div>
+          <div class="image-wrapper">
+            <img src="catImgForPortofolio.png" alt="No data" />
+          </div>
         </div>
+        <div class="secondContent">
+          <div class="AboutMe" id="aboutMe">
+            <h2>About me</h2>
+            <p>
+              My name is Avram Alin Ioan, I was born on 21st October 2003, and I
+              live in Bucharest, Sector 4. I am a third-year student at the
+              Faculty of Cybernetics, Statistics, and Economic Informatics,
+              specializing in Economic Informatics, and I am intensely
+              passionate about programming and IT. Every day, I strive to learn
+              new things and enrich my knowledge regarding the technologies I
+              have already worked with.
+              <br />
+              <br />I am a sociable and friendly individual who looks forward to
+              working in a dynamic team environment. I am eager to learn from
+              those with a stronger understanding of programming and
+              continuously improve my skills. I value collaboration and am
+              excited about the opportunity to grow and develop in a supportive
+              and innovative setting.
+              <br />
+              <br />I am currently seeking an internship or part-time position
+              as a Software Developer. I am eager to apply my skills and
+              knowledge in a professional setting and contribute to the success
+              of a dynamic team.
+            </p>
+          </div>
+
+          <div class="personal-projects" id="personalProjects">
+            <h2>Personal Projects</h2>
+            <ul>
+              <li>
+                University Dissertation Collaboration Platform. A platform where
+                students can request collaborations with professors. Professors
+                can accept multiple students, review their papers, sign them,
+                and send them back. Built with JavaScript using React for the
+                frontend, Node.js for the backend, and MariaDB for the database.
+                <div class="project-gallery">
+                  <img
+                    src="ss1.png"
+                    alt="Login Dashboard"
+                    class="project-image"
+                  />
+                  <img
+                    src="ss2.png"
+                    alt="Student Portal"
+                    class="project-image"
+                  />
+                  <img
+                    src="ss3.png"
+                    alt="Professor Dashboard"
+                    class="project-image"
+                  />
+                  <img
+                    src="ss4.png"
+                    alt="Document Review Interface"
+                    class="project-image"
+                  />
+                </div>
+              </li>
+              <li>
+                Browser-Based Drawing App. A web application inspired by
+                Microsoft Paint, allowing users to draw on a canvas using
+                various tools (rectangle, ellipse, circle, line). It also
+                features background customization and an undo function. Built
+                with HTML, CSS, and JavaScript.
+                <div class="project-gallery">
+                  <img src="sspaint.png" alt="Paint" class="project-image" />
+                  <img src="sspaint2.png" alt="Paint" class="project-image" />
+                </div>
+              </li>
+              <li>
+                Managing restaurant orders based on ingredient stocks" - I used
+                object-oriented programming in C++. This project includes a
+                console interface that manages customer orders.
+              </li>
+              <li>
+                Interactive menu in bash using the features of UNIX systems"
+                based on CSV files, different guitar models from 80s artists are
+                displayed in the terminal.
+              </li>
+              <li>
+                "Managing the database of a music store. - I used SQL and PL/SQL
+                to manage information and tables related to employees,
+                departments, suppliers, orders, and products.
+              </li>
+              <li>
+                An application for a video rental store. " - I used Visual
+                Studio Windows Forms in C# and created multiple scenes where the
+                client could view the rental list, the available tapes, and even
+                complete a rental form for a specified period.
+              </li>
+            </ul>
+          </div>
+          <div class="education" id="education">
+            <h2>Education</h2>
+            <p>
+              <a href="https://www.ase.ro"
+                >Bucharest University of Economic-Studies</a
+              ><br />
+              <a href="https:/csie.ase.ro"
+                >Faculty of Cybernetics, Statistics, and Economic Informatics
+              </a>
+              <br />
+              Specialization: Economic Informatics <br />
+              Class of 2022-2025
+            </p>
+          </div>
+
+          <div class="experience-certifications" id="experienceCert">
+            <h2>Experience and Certifications</h2>
+            <ul>
+              <li>
+                Erasmus+ project "INFOROBOTICS" held in Spain, Granada. I delved
+                into MicroPython technology by developing a remote- controlled
+                car from scratch as part of a team. I was responsible for the
+                software part.
+              </li>
+              <li>Oracle Course “Database Design and Programming with SQL”</li>
+              <li>Oracle Course “Database Programming with PL/SQL”</li>
+              <li>
+                Cambridge CAE(“Advanced Certificate in English”) obtained with
+                the highest score.
+              </li>
+              <li>
+                Tools: VSCode, Android Studio, Eclipse, Visual Studio, SQL
+                Developer, PyCharm,IntelliJ,GIT
+              </li>
+            </ul>
+          </div>
+          <div class="skills" id="skillsId">
+            <h2>Skills</h2>
+            <ul>
+              <li>
+                Programming languages and technologies: Javascript, NodeJS,
+                React, React Native, Java, C#, C, C++, SQL, PL/SQL, Python,
+                HTML, CSS
+              </li>
+              <li>
+                Software: VSCode, Android Studio, Visual Studio,
+                Eclipse/IntelliJ, SQL Developer, PyCharm, Visual Paradigm
+              </li>
+              <li>Soft Skills: Teamwork, Communication, Problem-solving</li>
+            </ul>
+          </div>
+          <div class="hobbies" id="hobbiesId">
+            <h2>Hobbies</h2>
+            <ul>
+              <li>
+                Vocalist and guitarist in the Blues/Pop Rock band "The
+                NewBlackjack"
+              </li>
+              <li>collect vinyl records and CDs.</li>
+              <li>Passionate about sports and fitness.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
-<script src="scriptPortofolio.js"> </script>
+  </body>
+  <script src="scriptPortofolio.js"></script>
 </html>
