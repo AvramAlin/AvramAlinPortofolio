@@ -23,8 +23,8 @@ document.getElementById("skillsNav").addEventListener("click", function () {
 
 document.getElementById("downloadCV").addEventListener("click", function () {
   const link = document.createElement("a");
-  link.href = "./AvramAlinResumeReact.pdf";
-  link.download = "AvramAlinResumeDownload.pdf";
+  link.href = "./AvramAlinResume.pdf";
+  link.download = "AvramAlinResume.pdf";
 
   document.body.appendChild(link);
 
